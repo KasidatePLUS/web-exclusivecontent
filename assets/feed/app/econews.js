@@ -1,7 +1,7 @@
-let ecourl = 'http://rssfeeds.sanook.com/rss/feeds/sanook/news.economic.xml';
+let ecosurl = 'http://rssfeeds.sanook.com/rss/feeds/sanook/news.economic.xml';
 const textarea_eco = document.querySelector('#feed-textarea-eco > ul');
 
-feednami.load(ecourl)
+feednami.load(ecosurl)
   .then(feed => {
     textarea_eco.value = ''
     console.log(feed);
@@ -14,7 +14,7 @@ feednami.load(ecourl)
     
     <div class="uk-flex-middle" uk-grid uk-card uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
  
-        <div class="uk-width-2-3@m uk-text-default uk-text-normal  uk-link-heading" uk-scrollspy-class="uk-animation-slide-top">
+        <div class="uk-width-2-3@m uk-text-default uk-text-normal thai  uk-link-heading" uk-scrollspy-class="uk-animation-slide-top">
              <a href="${entry.link}" > <span class="uk-label uk-label-danger">ECONOMIC</span>
              ${entry.title}
              </a>

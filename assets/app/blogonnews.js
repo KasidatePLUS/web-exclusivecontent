@@ -1,9 +1,10 @@
-let iturl = 'http://rssfeeds.sanook.com/rss/feeds/sanook/hitech.news.xml';
-const textarea_it = document.querySelector('#feed-textarea-it > ul');
+let blogonurl = 'https://blog.kasidate.me/feeds/posts/default';
+const textareaonblog = document.querySelector('#feed-textarea-blogonnews > ul');
 
-feednami.load(iturl)
+
+feednami.load(blogonurl)
   .then(feed => {
-    textarea_it.value = ''
+    textareaonblog.value = ''
     console.log(feed);
     for (let entry of feed.entries) {
 
@@ -14,8 +15,8 @@ feednami.load(iturl)
     
     <div class="uk-flex-middle" uk-grid  uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
     
-        <div class="uk-width-2-3@m uk-text-default uk-text-normal thai uk-link-heading"  uk-scrollspy-class="uk-animation-slide-top">
-             <a href="${entry.link}" > <span class="uk-label uk-label-success">IT NEWS</span>
+        <div class="uk-width-2-3@m uk-text-default uk-text-normal uk-link-heading thai"  uk-scrollspy-class="uk-animation-slide-top">
+             <a href="${entry.link}" > <span class="uk-label uk-label-success">BLOG <span> : ${entry.categories}</span></span>
              ${entry.title}
              </a>
         </div>
@@ -26,6 +27,6 @@ feednami.load(iturl)
      
       `;
       //append HTML content to list 
-      textarea_it.appendChild(li);
+      textareaonblog .appendChild(li);
     }
   });

@@ -83,12 +83,21 @@
         <div uk-filter="target: .js-filter">
             <ul class="uk-subnav uk-subnav-pill">
                 <li class="uk-active" uk-filter-control><a href="#ALLNEWS">All</a></li>
+                <li uk-filter-control="[data-f='BLOG']"><a href="#BLOG">KasidateBLOG</a></li>
                 <li uk-filter-control="[data-f='HOT']"><a href="#HOTNEWS">HOT NEWS</a></li>
                 <li uk-filter-control="[data-f='IT']"><a href="#IT">IT</a></li>
                 <li uk-filter-control="[data-f='ECO']"><a href="#ECONOMIC">ECONOMIC</a></li>
                 <li uk-filter-control="[data-f='WORLD']"><a href="#WORLD">WORLD</a></li>
             </ul>
             <ul class="js-filter" uk-grid>
+                <li class="uk-child-width-1-1@s " data-f="BLOG" uk-grid uk-height-match="target: > div > .uk-card; row: false" >
+                    <div class="uk-first-column" id="feed-textarea-blogonnews">
+                        <h2 class="uk-text-bold"> Kasidate BLOG</h2>
+                        <hr class="uk-divider-small">
+                        <ul class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        </ul>
+                    </div>
+                </li>
                 <li class="uk-child-width-1-1@s " data-f="HOT" uk-grid uk-height-match="target: > div > .uk-card; row: false" >
                     <div class="uk-first-column" id="feed-textarea-hot">
                         <h2 class="uk-text-bold"> HOT NEWS</h2>
@@ -128,6 +137,7 @@
         <script src="/assets/feed/app/econews.js"></script>
         <script src="/assets/feed/app/app-news.js"></script>
         <script src="/assets/feed/app/appnewswolrd.js"></script>
+        <script src="/assets/app/blogonnews.js"></script>
 
 </body>
 
