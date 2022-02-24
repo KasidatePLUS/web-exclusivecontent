@@ -1,0 +1,12 @@
+ul{
+    border-color: black;
+    border-width: 10px;
+    background-color: coral;
+}
+li{
+    margin: 10px;
+}
+img{
+    border-radius: 20px;
+    width: 50%;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NEWS | spotlight </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="/assets/main/uk-ext-kasidate.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+        <nav class="uk-navbar-container uk-background-dark uk-light" uk-navbar uk-grid>
+
+            <div class="uk-navbar-left uk-align-center">
+
+                <div class="uk-padding uk-panel uk-ext-marginrev-10">
+                    <p class="uk-h2 uk-text-bold">SPOTLIGHT <span
+                            class="uk-label uk-label-warning uk-ext-bata-warning">BETA</span></p>
+                </div>
+            </div>
+
+            <div class="uk-navbar-right uk-align-center">
+
+                <ul class="uk-navbar-nav uk-ext-marginrev-10">
+                    <li class="uk"><a href="/">HOME</a></li>
+                    <li class="uk-active"><a href="#">NEWS</a></li>
+                    <li><a class="uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-push">ABOUT</a>
+                    <li><a href="/l/login"><button class="uk-button uk-button-default uk-margin-botton-nav">Log
+                                In</button></a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </div>
+    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+            <h3>What is Kasidate?</h3>
+            <div class="uk-ext-img-m"><img src="" alt="" srcset="assets/main/system/img/about-kasidate.png"
+                    class="uk-ext-aboutimg"></div>
+            <p>Hello, My name is<strong> Kasidate Phlaiphueak </strong>, my nickname is
+                ฺฺ<strong>Bank</strong>. I'm a quiet person. He enjoys reading articles, listening to
+                podcasts, and listening to music.
+                .</p>
+            <p>I'm from Phetchaburi Province since birth. and studied at the primary level at <strong> Wat
+                    Na Phrom School</strong> (Mon-Mahawiriyakan) until the end of Primary 6 and then
+                continued to study at <strong>Benchamatheputhit, Phetchaburi School</strong> in who
+                classroom
+                to promote excellence in mathematics and science in junior high school and a science smart
+                classroom at the end of high school level</p>
+
+            <a href="#" class="uk-button uk-button-default"> MORE ABOUT ME</a>
+        </div>
+    </div>
+
+    <div class="uk-section uk-section-primary">
+        <div class="uk-container uk-container-xlarge"></div>
+        <div class="uk-text-large uk-text-bold uk-text-uppercase uk-text-center uk-ext-text-white">NEWS</div>
+        <div class="uk-text-meta uk-text-center">
+            HOT NEWS | IT NEWS | ECONOMIC NEWS | WORLD NEWS
+
+        </div>
+    </div>
+    </div>
+    <div class="uk-container">
+
+        <div uk-filter="target: .js-filter">
+            <ul class="uk-subnav uk-subnav-pill">
+                <li class="uk-active" uk-filter-control><a href="#ALLNEWS">All</a></li>
+                <li uk-filter-control="[data-f='HOT']"><a href="#HOTNEWS">HOT NEWS</a></li>
+                <li uk-filter-control="[data-f='IT']"><a href="#IT">IT</a></li>
+                <li uk-filter-control="[data-f='ECO']"><a href="#ECONOMIC">ECONOMIC</a></li>
+                <li uk-filter-control="[data-f='WORLD']"><a href="#WORLD">WORLD</a></li>
+            </ul>
+            <ul class="js-filter" uk-grid>
+                <li class="uk-child-width-1-1@s " data-f="HOT" uk-grid uk-height-match="target: > div > .uk-card; row: false" >
+                    <div class="uk-first-column" id="feed-textarea-hot">
+                        <h2 class="uk-text-bold"> HOT NEWS</h2>
+                        <hr class="uk-divider-small">
+                        <ul class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        </ul>
+                    </div>
+                </li>
+                <li class="uk-child-width-1-1@s " data-f="IT" uk-grid uk-height-match="target: > div > .uk-card; row: false" >
+                    <div class="uk-first-column" id="feed-textarea-it">
+                        <h2 class="uk-text-bold"> IT NEWS</h2>
+                        <hr class="uk-divider-small">
+                        <ul class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        </ul>
+                    </div>
+                </li>
+                <li class="uk-child-width-1-1@s tag-eco" data-f="eco" uk-grid uk-height-match="target: > div > .uk-card; row: false">
+                    <div class="uk-first-column" id="feed-textarea-eco">
+                        <h2 class="uk-text-bold"> ECONOMIC</h2>
+                        <hr class="uk-divider-small">
+                        <ul  class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        </ul>
+                    </div>
+                </li>
+                <li class="uk-child-width-1-1@s tag-eco" data-f="WORLD" uk-grid uk-height-match="target: > div > .uk-card; row: false">
+                    <div class="uk-first-column" id="feed-textarea-world">
+                        <h2 class="uk-text-bold"> WORLD</h2>
+                        <hr class="uk-divider-small">
+                        <ul  class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+        <script src="/assets/feed/app/itnews.js"></script>
+        <script src="/assets/feed/app/econews.js"></script>
+        <script src="/assets/feed/app/app-news.js"></script>
+        <script src="/assets/feed/app/appnewswolrd.js"></script>
+
+</body>
+
+</html>
