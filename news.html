@@ -54,7 +54,7 @@
 
         </nav>
     </div>
-    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+    <div id="offcanvas-push" uk-offcanvas="mode: slide; overlay: true">
         <div class="uk-offcanvas-bar">
 
             <button class="uk-offcanvas-close" type="button" uk-close></button>
@@ -81,7 +81,7 @@
         <div class="uk-container uk-container-xlarge"></div>
         <div class="uk-text-large uk-text-bold uk-text-uppercase uk-text-center uk-ext-text-white">NEWS</div>
         <div class="uk-text-meta uk-text-center">
-            HOT NEWS | IT NEWS | ECONOMIC NEWS | WORLD NEWS
+            HOT NEWS | IT NEWS | ECONOMIC NEWS | WORLD NEWS | SPORT NEWS
 
         </div>
     </div>
@@ -96,59 +96,81 @@
                 <li uk-filter-control="[data-f='IT']"><a href="#IT">IT</a></li>
                 <li uk-filter-control="[data-f='ECO']"><a href="#ECONOMIC">ECONOMIC</a></li>
                 <li uk-filter-control="[data-f='WORLD']"><a href="#WORLD">WORLD</a></li>
+                <li uk-filter-control="[data-f='SPORT']"><a href="#SPORT">SPORT</a></li>
             </ul>
             <ul class="js-filter" uk-grid>
-                <li class="uk-child-width-1-1@s " data-f="BLOG" uk-grid uk-height-match="target: > div > .uk-card; row: false" >
+                <li class="uk-child-width-1-1@s " data-f="BLOG" uk-grid
+                    uk-height-match="target: > div > .uk-card; row: false">
                     <div class="uk-first-column" id="feed-textarea-blogonnews">
                         <h2 class="uk-text-bold"> Kasidate BLOG</h2>
                         <hr class="uk-divider-small">
-                        <ul class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        <ul
+                            class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
                         </ul>
                     </div>
                 </li>
-                <li class="uk-child-width-1-1@s " data-f="HOT" uk-grid uk-height-match="target: > div > .uk-card; row: false" >
+                <li class="uk-child-width-1-1@s " data-f="HOT" uk-grid
+                    uk-height-match="target: > div > .uk-card; row: false">
                     <div class="uk-first-column" id="feed-textarea-hot">
                         <h2 class="uk-text-bold"> HOT NEWS</h2>
                         <hr class="uk-divider-small">
-                        <ul class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        <ul
+                            class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
                         </ul>
                     </div>
                 </li>
-                <li class="uk-child-width-1-1@s " data-f="IT" uk-grid uk-height-match="target: > div > .uk-card; row: false" >
+                <li class="uk-child-width-1-1@s " data-f="IT" uk-grid
+                    uk-height-match="target: > div > .uk-card; row: false">
                     <div class="uk-first-column" id="feed-textarea-it">
                         <h2 class="uk-text-bold"> IT NEWS</h2>
                         <hr class="uk-divider-small">
-                        <ul class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        <ul
+                            class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
                         </ul>
                     </div>
                 </li>
-                <li class="uk-child-width-1-1@s tag-eco" data-f="eco" uk-grid uk-height-match="target: > div > .uk-card; row: false">
+                <li class="uk-child-width-1-1@s tag-eco" data-f="eco" uk-grid
+                    uk-height-match="target: > div > .uk-card; row: false">
                     <div class="uk-first-column" id="feed-textarea-eco">
                         <h2 class="uk-text-bold"> ECONOMIC</h2>
                         <hr class="uk-divider-small">
-                        <ul  class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        <ul
+                            class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
                         </ul>
                     </div>
                 </li>
-                <li class="uk-child-width-1-1@s tag-eco" data-f="WORLD" uk-grid uk-height-match="target: > div > .uk-card; row: false">
+                <li class="uk-child-width-1-1@s tag-eco" data-f="WORLD" uk-grid
+                    uk-height-match="target: > div > .uk-card; row: false">
                     <div class="uk-first-column" id="feed-textarea-world">
                         <h2 class="uk-text-bold"> WORLD</h2>
                         <hr class="uk-divider-small">
-                        <ul  class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        <ul
+                            class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        </ul>
+                    </div>
+                </li>
+                <li class="uk-child-width-1-1@s tag-eco" data-f="SPORT" uk-grid
+                    uk-height-match="target: > div > .uk-card; row: false">
+                    <div class="uk-first-column" id="feed-textarea-sport">
+                        <h2 class="uk-text-bold"> SPORT</h2>
+                        <hr class="uk-divider-small">
+                        <ul
+                            class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
                         </ul>
                     </div>
                 </li>
             </ul>
         </div>
-        <div class="rc-noti" id="rc-noti"></div>
+        <a href="#" class="uk-ext-totop" uk-totop uk-scroll></a>
+        <div class="kasp-noti" id="kasp-noti"></div>
         <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
         <script src="/assets/feed/app/itnews.js"></script>
         <script src="/assets/feed/app/econews.js"></script>
         <script src="/assets/feed/app/app-news.js"></script>
-        <script src="/assets/feed/app/appnewswolrd.js"></script>
+        <script src="/assets/feed/app/app-wolrdnews.js"></script>
+        <script src="/assets/feed/app/app-sportnews.js"></script>
         <script src="/assets/app/blogonnews.js"></script>
-        <script src="/assets/main/kasp-block.js"></script>  
-
+        <script src="/assets/main/kasp-block.js"></script>
 </body>
 
 </html>

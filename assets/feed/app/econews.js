@@ -20,7 +20,7 @@ feednami.load(ecosurl)
              </a>
         </div>
          <div class="uk-width-1-3@m uk-flex-first">
-        <img src="${entry.enclosures.url}" >
+        <img src="${entry.enclosures[0].url}">
          </div>
     </div>
    
