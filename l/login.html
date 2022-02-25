@@ -83,28 +83,31 @@
                 register. If wrong, please contact the administrator. <a href="mailto:support@kasidate.me">
                     support@kasidate.me</a> </p>
             <hr>
+        <form action="" id="Flogin" onsubmit="loginFS()">
             <div class="uk-margin uk-inline uk-align-center uk-width-1-1">
                 <span class="uk-form-icon" uk-icon="icon: user"></span>
-                <input class="uk-input uk-width-1-1" type="text" placeholder="Username"></input>
+                <input class="uk-input uk-width-1-1" type="text" placeholder="Username" required></input>
             </div>
             <br>
             <div class="uk-margin uk-inline uk-align-center uk-width-1-1">
                 <span class="uk-form-icon" uk-icon="icon: lock"></span>
-                <input class="uk-input uk-width-1-1" type="password" placeholder="Password"></input>
+                <input class="uk-input uk-width-1-1" type="password" placeholder="Password" required></input>
             </div>
 
             <div class="uk-margin">
 
-                <button class="uk-button uk-button-default" type="submit">Log In</button>
+                <button class="uk-button uk-button-default" type="submit" value="submit" >Log In</button>
                 <span>Don't have a account, contact support@kasidate.me</span>
             </div>
+        </form>
             <a href="#" class="uk-ext-totop" uk-totop uk-scroll></a>
 
         </div>
     </div>
     <a href="#" class="uk-ext-totop" uk-totop uk-scroll></a>
-    <div class="kasp-noti" id="kasp-noti"></div>
+    <div class="kasp-noti" id="kasp-noti">.</div>
     <script src="/assets/main/kasp-block.js"></script>
+    <script src="/assets/main/kasp-submit.js"></script>
 
 </body>
 
