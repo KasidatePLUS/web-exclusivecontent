@@ -9,15 +9,3 @@ window.addEventListener('contextmenu', function (e) {
     e.preventDefault();
 }, false);
 
-function killcopy(e) {
-    return false
-}
-function reEnable() {
-    return true
-}
-document.onselectstart = new function () {
-    if (window.sldebar) {
-        document.onmousedown = killcopy
-        document.onclick = reEnable
-    }
-}
