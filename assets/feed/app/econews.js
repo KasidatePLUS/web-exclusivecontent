@@ -12,10 +12,10 @@ feednami.load(ecosurl)
       //add HTML content to list items
       li.innerHTML = `
     
-    <div class="uk-flex-middle" uk-grid uk-card uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
+    <div class="uk-flex-middle uk-text-top" uk-grid uk-card uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
  
-        <div class="uk-width-2-3@m uk-text-default uk-text-normal thai  uk-link-heading" uk-scrollspy-class="uk-animation-slide-top">
-             <a href="${entry.link}" > <span class="uk-label uk-label-danger">ECONOMIC</span>
+        <div class="uk-width-2-3@m uk-text-default uk-text-top uk-text-normal thai  uk-link-heading" uk-scrollspy-class="uk-animation-slide-top">
+             <a href="${entry.link}" > <span class="uk-label uk-label-danger">ECONOMIC</span> <br>
              ${entry.title}
              </a>
         </div>
