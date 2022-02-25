@@ -1,5 +1,5 @@
 window.addEventListener('contextmenu', function (e) {
-    document.getElementById("rc-noti").innerHTML = UIkit.notification({
+    document.getElementById("kasp-noti").innerHTML = UIkit.notification({
         message:'<div class="uk-text-bold uk-text-small"><span uk-icon="warning"></span> KasidatePLUS NOTIFICATION</div>' +
                 '<div class"uk-text-capitalize">Disable Right-Click</div>',
         status: 'warning',
