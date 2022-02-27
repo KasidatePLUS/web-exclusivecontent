@@ -77,7 +77,7 @@
         </div>
     </div>
 
-    <div class="uk-section uk-section-primary" < id='geek'>
+    <div class="uk-section uk-section-primary uk-backgroungcolor-g-green" < id='geek'>
         <div class="uk-container uk-container-xlarge"></div>
         <div class="uk-text-large uk-text-bold uk-text-uppercase uk-text-center uk-ext-text-white">NEWS</div>
         <div class="uk-text-meta uk-text-center">
@@ -93,7 +93,8 @@
                 <li class="uk-active" uk-filter-control><a href="#ALLNEWS">All</a></li>
                 <li uk-filter-control="[data-f='BLOG']"><a href="#BLOG">KasidateBLOG</a></li>
                 <li uk-filter-control="[data-f='HOT']"><a href="#HOTNEWS">HOT NEWS</a></li>
-                <li uk-filter-control="[data-f='IT']"><a href="#IT">IT</a></li>
+                <li uk-filter-control="[data-f='IT']"><a href="#IT">TECHNOLOGY</a></li>
+                <li uk-filter-control="[data-f='POL']"><a href="#POLITIC">POLITIC</a></li>
                 <li uk-filter-control="[data-f='ECO']"><a href="#ECONOMIC">ECONOMIC</a></li>
                 <li uk-filter-control="[data-f='WORLD']"><a href="#WORLD">WORLD</a></li>
                 <li uk-filter-control="[data-f='SPORT']"><a href="#SPORT">SPORT</a></li>
@@ -101,6 +102,10 @@
             <ul class="js-filter" uk-grid>
                 <li class="uk-child-width-1-1@s " data-f="BLOG" uk-grid
                     uk-height-match="target: > div > .uk-card; row: false">
+                    <div class="uk-first-column">
+
+
+                    </div>
                     <div class="uk-first-column" id="feed-textarea-blogonnews">
                         <h2 class="uk-text-bold"> Kasidate BLOG</h2>
                         <hr class="uk-divider-small">
@@ -122,17 +127,27 @@
                 <li class="uk-child-width-1-1@s " data-f="IT" uk-grid
                     uk-height-match="target: > div > .uk-card; row: false">
                     <div class="uk-first-column" id="feed-textarea-it">
-                        <h2 class="uk-text-bold"> IT NEWS</h2>
+                        <h2 class="uk-text-bold"> TECHNOLOGY</h2>
                         <hr class="uk-divider-small">
                         <ul
                             class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
                         </ul>
                     </div>
                 </li>
-                <li class="uk-child-width-1-1@s tag-eco" data-f="eco" uk-grid
+                <li class="uk-child-width-1-1@s tag-eco" data-f="ECO" uk-grid
                     uk-height-match="target: > div > .uk-card; row: false">
                     <div class="uk-first-column" id="feed-textarea-eco">
                         <h2 class="uk-text-bold"> ECONOMIC</h2>
+                        <hr class="uk-divider-small">
+                        <ul
+                            class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
+                        </ul>
+                    </div>
+                </li>
+                <li class="uk-child-width-1-1@s tag-eco" data-f="POL" uk-grid
+                    uk-height-match="target: > div > .uk-card; row: false">
+                    <div class="uk-first-column" id="feed-textarea-pol">
+                        <h2 class="uk-text-bold"> POLITIC</h2>
                         <hr class="uk-divider-small">
                         <ul
                             class="uk-card uk-card-body uk-grid-margin uk-ext-margin30  uk-list-large uk-column-1 uk-column-1-2@s">
@@ -161,16 +176,35 @@
                 </li>
             </ul>
         </div>
-        <a href="#" class="uk-ext-totop" uk-totop uk-scroll></a>
-        <div class="kasp-noti" id="kasp-noti"></div>
-        <script src="/assets/feed/app/kasp-ext-feednami.js"></script>
-        <script src="/assets/feed/app/itnews.js"></script>
-        <script src="/assets/feed/app/econews.js"></script>
-        <script src="/assets/feed/app/app-news.js"></script>
-        <script src="/assets/feed/app/app-worldnews.js"></script>
-        <script src="/assets/feed/app/app-sportnews.js"></script>
-        <script src="/assets/app/blogonnews.js"></script>
-        <script src="/assets/main/kasp-block.js"></script>
-        <script src="/assets/main/kasp-advancescript.js"></script>
+    </div>
+    <div class="kasp-noti" id="kasp-noti">.</div>
+    <div class="uk-section-footter uk-section-primary uk-backgroungcolor-g-green" < id='geek'>
+
+        <div class="uk-text uk-text-left margin-footer-left">
+
+            © 2022 KasidatePLUS All rights reserved.
+            
+        </div>
+       
+       <li><a href="mailto:contact@kasidate.me"><button href="mailto:contact@kasidate.me" class="uk-button uk-button-footer uk-button-default uk-margin-botton-nav">CONTACT    </button></a></li>
+            
+
+       
+    </div>
+
+    <a href="#" class="uk-ext-totop" uk-totop uk-scroll></a>
+
+    <script src="/assets/feed/app/kasp-ext-feednami.js"></script>
+    <script src="/assets/feed/app/app-itnews.js"></script>
+    <script src="/assets/feed/app/app-economicnews.js"></script>
+    <script src="/assets/feed/app/app-news.js"></script>
+    <script src="/assets/feed/app/app-worldnews.js"></script>
+    <script src="/assets/feed/app/app-politicnews.js"></script>
+    <script src="/assets/feed/app/app-sportnews.js"></script>
+    <script src="/assets/app/blogonnews.js"></script>
+    <script src="/assets/main/kasp-block.js"></script>
+    <script src="/assets/main/kasp-advancescript.js"></script>
+    <script src="/assets/main/kasp-currentyear.js"></script>
 </body>
+
 </html>
