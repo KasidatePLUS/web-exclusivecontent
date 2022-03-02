@@ -174,7 +174,7 @@ ul > li{
   }
   .uk-backgroungcolor-g-green{
     background: rgb(0,0,0);
-    background: linear-gradient(167deg, rgba(0,0,0,1) 0%, rgba(22,22,40,1) 12%, rgba(70,73,74,1) 100%);
+    background: linear-gradient(167deg, rgba(0,0,0,0.999) 0%, rgba(22,22,40,0.99) 12%, rgba(70,73,74,1) 100%);
   }
   .margin-footer-left{
       margin-left: 40px;
@@ -182,15 +182,17 @@ ul > li{
       padding-bottom: 50px;
       display: inline-block;
       width: 50%;
-      float: left;
   }
   .uk-section-footter{
         display: inline-block;
         width: 100%;
   }
   .uk-button-footer{
-    margin-right: 40px;
-    margin-top: 20px;
-    width: 7 0px;
-    float: right;
+    right: 40px;
+    bottom:50px;
+  
+    position :relative;
+  }
+  .cov-box-margin{
+      margin: 40px;
   }
