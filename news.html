@@ -108,12 +108,13 @@
                 <li uk-filter-control="[data-f='ECO']"><a href="#ECONOMIC">ECONOMIC</a></li>
                 <li uk-filter-control="[data-f='WORLD']"><a href="#WORLD">WORLD</a></li>
                 <li uk-filter-control="[data-f='SPORT']"><a href="#SPORT">SPORT</a></li>
+                <li uk-filter-control="[data-f='COVID']"><a href="#COVID">COVID-19 UPDATE</a></li>
             </ul>
             <ul class="js-filter" uk-grid>
                 <li class="uk-child-width-1-1@s " data-f="BLOG" uk-grid
                     uk-height-match="target: > div > .uk-card; row: false">
                     <div class="uk-first-column">
-
+                       
 
                     </div>
                     <div class="uk-first-column" id="feed-textarea-blogonnews">
@@ -122,6 +123,14 @@
                         <ul
                             class="uk-card uk-card-body uk-grid-margin uk-ext-margin30 uk-text-top uk-list-large uk-column-1 uk-column-1-2@s">
                         </ul>
+                    </div>
+                </li>
+                <li class="uk-child-width-1-1@s " data-f="COVID" uk-grid
+                    uk-height-match="target: > div > .uk-card; row: false">
+                    <div class="uk-first-column" id="feed-textarea-hot">
+                        <h2 class="uk-text-bold"> COVID-19 UPDATE</h2>
+                        <hr class="uk-divider-small">
+                        <div class="covid-container"> Loading... </div>
                     </div>
                 </li>
                 <li class="uk-child-width-1-1@s " data-f="HOT" uk-grid
@@ -215,6 +224,7 @@
     <script src="/assets/main/kasp-block.js"></script>
     <script src="/assets/main/kasp-advancescript.js"></script>
     <script src="/assets/main/kasp-currentyear.js"></script>
+    <script src="/assets/app/kasp-coviddairyreport.js"></script>
 </body>
 
 </html>
