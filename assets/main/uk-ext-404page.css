@@ -1,0 +1,45 @@
+.s404-section-body{
+    margin-top: auto;
+    margin-bottom: auto;
+   height:900px;
+}
+.uk-container{
+    top: 50px;
+}
+.copyright{
+    position: fixed;
+    bottom: 50px;
+}
+.social{
+    position: fixed;
+    bottom: 80px;
+}
+.title{
+    position: fixed;
+    top: 40%;
+}
+.uk-title-text{
+    font-weight: bolder;
+    font-size: 50px;
+    color: darkslategray;
+}
+.uk-ext-bata-black{
+    background-color: darkslategray;
+    margin-top: 7px;
+    margin-left: -15px;
+}
+.s404-botton{
+    position: fixed;
+    top: 75%;
+}
+.cycle-bg-1{
+    width: 1500px;
+    height: 1500px;
+    margin-top: -500px;
+    margin-left: -300px;
+    font-size: px;
+    background-color: rgba(49, 59, 51, 0.486);
+   
+    position: absolute;
+    border-radius: 100%;
+}

@@ -303,3 +303,22 @@ ul > li {
   font-size: 16px;
 }
 
+/** content preview display*/
+.images-preview{
+  border-radius: 7px;
+}
+.content-exclusivereadmore{
+  margin-top: 20px;
+}
+.uk-ext-footer{
+  margin-top: 100px;
+}
+.footer-kaspowner{
+  color: darkkhaki;
+}
+.div-noti-dd{
+  opacity: 0;
+}
+.uk-logo-center{
+  margin-top: auto;
+}
