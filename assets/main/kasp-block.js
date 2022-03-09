@@ -21,7 +21,7 @@ window.addEventListener('copy', function (e) {
     e.preventDefault();
 }, false);
 
-window.addEventListener("keydown", function (e) {
+window.addEventListener('keydown', function (e) {
     if(Event.keycode == 123){
         document.getElementById("kasp-noti").innerHTML = UIkit.notification({
             message:'<div class="uk-text-bold uk-text-small"><span uk-icon="warning"></span> KasidatePLUS NOTIFICATION</div>' +
