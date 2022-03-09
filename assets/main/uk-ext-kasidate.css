@@ -23,9 +23,6 @@
   padding: -2px !important;
   margin: -2px !important;
 }
-.uk-margin-botton-nav {
-  margin-right: 20px;
-}
 .uk-ext-img-m {
   width: 50%;
 }
@@ -34,7 +31,7 @@
   box-shadow: 0px 10px 20px rgb(26, 26, 32);
 }
 .uk-ext-marginrev-10 {
-  margin-top: -25px;
+  margin-top: -10px;
   margin-bottom: -30px !important ;
 }
 .uk-navbar-nav {
@@ -45,7 +42,7 @@
   margin: 12px;
 }
 .uk-container {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .uk-ext-bata-warning {
   font-size: small;
@@ -81,7 +78,7 @@
 }
 .uk-ext-margin15 {
   padding: 5px;
-  margin: 0px 10px;
+  margin: 0px 110px;
 }
 li {
   list-style: none;
