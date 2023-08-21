@@ -14,7 +14,7 @@ feednami.load(polurl)
     
     <div class="uk-flex-middle" uk-grid  uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
     
-        <div class="uk-width-2-3@m uk-text-default uk-text-normal uk-link-heading"  uk-scrollspy-class="uk-animation-slide-top">
+        <div class="uk-width-2-3@m uk-text-default uk-text-normal thai uk-link-heading"  uk-scrollspy-class="uk-animation-slide-top">
              <a href="${entry.link}" > <span class="uk-label uk-label-warning">POLITICAL NEWS</span>
              <br>
              ${entry.title}
